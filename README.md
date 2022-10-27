@@ -5,14 +5,11 @@ Takes an unsolved Sudoku Grid as input, given as a continuous string of 81 chara
 In this Python-written project, the program prints out the final output
 as a 9x9 grid and uses Constraint Propagation (AC3 Algorithm) and Backtracking Search.
 In AC3, it checks arc consistency and enforces it by removing values from the domain of unassigned variables.
-The solver will try to solve it with AC3 alone, but if it fails it will resort to Backtracking Search
+The solver will try to solve it with AC3 alone, but if it fails it will resort to Backtracking Search.
 
 Examples of sample input for the board are given below.
 
 ## Run Locally
-It is important to note that this program was developed on a Linux VM, and the instructions
-below reflect that. If you do not wish to try out the program yourself, I have provided
-sample output below for your convenience.
 
 Clone the project (in your git directory)
 
