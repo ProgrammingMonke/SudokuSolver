@@ -1,15 +1,3 @@
-"""
-Class:       CMSC 471
-File:        hw2.py
-Author:      Franco Maxey
-Date:        10/18/22
-E-mail:      francom1@umbc.edu
-Description: Takes an unsolved Sudoku Grid as input, given as a continuous string of 81 characters. Program prints out the final output
-            as a 9x9 grid and uses Constraint Propagation (AC3 Algorithm) and Backtracking Search. In AC3, it checks arc consistency
-            and enforces it by removing values from the domain of unassigned variables
-"""
-
-
 # Node Class to represent every number in the gameboard
 class node:
     def __init__(self, number,x,y):
