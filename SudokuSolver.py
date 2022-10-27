@@ -60,7 +60,7 @@ def AC3(gameBoard):
         # Set this node's space to num and modify the domain
         find.number = num
         fixDomain(gameBoard)
-        # Attempt to solve the board from that pointee
+        # Attempt to solve the board from that pointer
         if (AC3(gameBoard)):
             return True
         # If the board wasn't solved yet, we will just set reset that space to an empty space and fix the domain
